@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms
+    </title>
+</head>
+
+<body>
+    <h2>this is form tutorial</h2>
+    <form action="backend.php">
+        <label for="name">name</label>
+        <!-- used to click on select when clicked on texts<label for="name">name</label> -->
+        
+             : <input type="text" name="myname" id="name">
+        <div>
+            role :<input type="text"></div>
+        <div>
+            name :<input type="text"></div>
+        <div>
+            email :<input type="email" name="myemail"></div>
+            <div>
+                date: <input type="date" name="date">
+                
+            </div>
+            
+            <div></div>
+            
+            number <input type="number" name="mynumber">
+            
+        </div>
+        <br>
+        <div>
+            <label for="car">car</label>
+            <select name="mycar" id="car">
+                <option value="ind">inidca</option>
+                <option value="sft" selected>swift</option>
+            </select>
+        </div>
+        <div>write about yourself <br> <textarea  name="mytext" cols="30" rows="10"> </textarea>
+        </div>
+        <div> <label for="eligible">
+            are you eligible </label> <input type="checkbox" name="myelgibility" id="eligible" checked> <!-- if used checked then itll be cheked-->
+        </div>
+        <div>
+            gender : male <input type="radio" name="mygender"> female <input type="radio" name="mygender"> other <input type="radio" name="mygender" id="">
+        </div>
+        <div><input type="submit" value="sumbit"></div> <input type="reset" value="reset now">
+    </form>
+</body>
+
+</html>

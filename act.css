@@ -1,0 +1,56 @@
+.activities {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .slider {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
+  
+  .slide {
+    flex: 0 0 auto;
+    width: 400px;
+    margin-right: 30px;
+    scroll-snap-align: center;
+  }
+  
+  .slide img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .slide h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .slide p {
+    font-size: 16px;
+  }
+  
+  @media (max-width: 767px) {
+    .slider {
+      display: block;
+      overflow-x: auto;
+    }
+    
+    .slide {
+      margin-right: 20px;
+    }
+  }
+  

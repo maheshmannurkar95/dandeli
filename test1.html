@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Resort Booking</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/z.css">
+    <link rel="stylesheet" href="z1.css">
+
+    <style>/* Style for the image gallery */
+        .image-gallery {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+          }
+          
+          .gallery-image {
+            width: 30%;
+            height: auto;
+            margin-bottom: 10px;
+            cursor: pointer;
+          }
+          
+          /* Style for the modal */
+          .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.9);
+          }
+          
+          .modal-content {
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 800px;
+            padding: 20px;
+            box-sizing: border-box;
+          }
+          
+          .mySlides {
+            display: none;
+          }
+          
+          .modal img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+          }
+          
+          /* Next and previous buttons */
+          .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -30px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 30px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+          }
+          
+          /* Position the "next button" to the right */
+          .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+          }
+          
+          /* On hover, add a black background color with a little bit see-through */
+          .prev:hover, .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+          }
+          </style>
+    <!-- <<-<script src="z.js" ></script>
+    <script src="za.js"></script><div id="popup-container">
+        <div id="popup">
+          <h2>Welcome to Our Website!</h2>
+          <p>Thanks for visiting. Sign up for our newsletter to stay up to date with our latest news and offers.</p>
+          <form>
+            <input type="email" placeholder="Enter your email address">
+            <button type="submit">Subscribe</button>
+          </form>
+          <button id="close-popup">Close</button>
+        </div>
+      </div>
+      <script src="/za.js"></script>--> -->
+  </head>
+  <body>
+        
+    
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="/pngtree-beach-house-icon-logo-inspiration-png-image_2782466.jpg" width="100px" height="200px"  alt="Resort Booking">
+          <a href="/test1.html"></a>
+        </div>
+        <ul>
+          <li><a href="/test1.html">Home</a></li>
+          <li><a href="/resorts.html">Resorts</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+        <div class="cta">
+          <a href="/book.html" class="button">Book Now</a>
+        </div>
+      </nav>
+      <div class="hero">
+        <h1>Welcome to green land</h1>
+        <p>Find your dream vacation at one of our luxurious resorts.</p>
+        <a href="resorts.html" class="button">View Resorts</a>
+      </div>
+      
+     </script>
+      </div>
+      
+    </header>
+    <main>
+      <section class="features">
+        <div class="container">
+          <div class="feature">
+            <img src="https://thumbs.dreamstime.com/b/hello-summer-vector-banner-design-vacation-concept-poster-landscape-seashore-resort-view-shiny-ocean-sea-water-bright-sun-149745684.jpg" alt="tents">
+            <h2>Luxurious Accommodations</h2>
+            <p>Experience the ultimate in comfort and relaxation with our luxurious accommodations.</p>
+          </div>
+          <div class="feature">
+            <img src="/Whistling-Woodzs-Resort-ss23102017.webp" alt="Feature 2">
+            <h2>World-Class Amenities</h2>
+            <p>Enjoy world-class amenities including swimming pools, fitness centers, and more.</p>
+          </div>
+          <div class="feature">
+            <img src="/345553823.jpg" alt="Feature 3">
+            <h2>Unbeatable Views</h2>
+            <p>Take in breathtaking views of the ocean, mountains, or city from your resort.</p>
+          </div>
+        </div>
+      </section>
+      <section class="resorts">
+        <div class="container">
+          <h2>Featured Resorts</h2>
+          <div class="resort">
+            <img src="resort1.jpg" alt="Resort 1">
+            <div class="details">
+              <h3>Resort 1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at neque auctor, tempor nulla vel, lacinia nisi.</p>
+              <a href="#" class="button">Learn More</a>
+            </div>
+          </div>
+          <div class="resort">
+            <img src="resort2.jpg" alt="Resort 2">
+            <div class="details">
+              <h3>Resort 2</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at neque auctor, tempor nulla vel, lacinia nisi.</p>
+              <a href="#" class="button">Learn More</a>
+            </div>
+          </div>
+          <div class="resort">
+            <img src="/download.jpg" alt="Resort 3">
+            <div class="details">
+              <h3>Resort 3</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at neque auctor, tempor nulla vel, lacinia nisi.</p>
+              <a href="#" class="button">Learn
+                <link rel="stylesheet" href="style.css">
+                
